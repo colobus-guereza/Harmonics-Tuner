@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#toggle-mic {
+    margin-bottom: 40px !important; 
+}
+
+.frequency {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+}
+
+.selected-pitch {
+    margin-bottom: 20px;
+}
+
+div#frequencyChart-container {
+    width: 1600px;
+    height: 1000px;
+    overflow: hidden; 
+}

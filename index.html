@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Frequency Analyzer</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <button id="toggle-mic"> Microphone On/Off</button>
+        <br><br>
+        
+        <div class="selected-pitch">
+            <strong>Selected Pitch:</strong> <span id="selected-note">-</span>
+        </div>
+        <button id="octave-down">↓</button>
+        <button class="pitch" data-note="C">C</button>
+        <button class="pitch" data-note="C#">C#</button>
+        <button class="pitch" data-note="D">D</button>
+        <button class="pitch" data-note="Eb">Eb</button>
+        <button class="pitch" data-note="E">E</button>
+        <button class="pitch" data-note="F">F</button>
+        <button class="pitch" data-note="F#">F#</button>
+        <button class="pitch" data-note="G">G</button>
+        <button class="pitch" data-note="G#">G#</button>
+        <button class="pitch" data-note="A">A</button>
+        <button class="pitch" data-note="Bb">Bb</button>
+        <button class="pitch" data-note="B">B</button>
+        <button id="octave-up">↑</button>
+        <br>
+        
+        <br>
+        <div class="frequency">
+            <strong>Tonic:</strong> <span id="tonic">-</span> Hz
+        </div>
+        <div class="frequency">
+            <strong>2nd Harmonic:</strong> <span id="second-harmonic">-</span> Hz
+        </div>
+        <div class="frequency">
+            <strong>3rd Harmonic:</strong> <span id="third-harmonic">-</span> Hz
+        </div>
+        <br>
+        
+            <canvas id="frequencyChart" width="1600" height="600"></canvas>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
