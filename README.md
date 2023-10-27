@@ -36,8 +36,8 @@ At I first I thought it worked well but found some problems, so that would like 
 3) Find the peak in the range and capture it as 2nd and 3rd Harmonic frequency.<br>
 
 ex) If I set D3 for tuning, 
-tonic index: 220Hz
-2nd Harmonic index and range: 440Hz, 410~470Hz
+tonic index: 220Hz <br>
+2nd Harmonic index and range: 440Hz, 410~470Hz <br>
 3rd Harmonics index and range: 660Hz, 630~690Hz
 
 I guess there is a error somewhere in the code to make this function..
