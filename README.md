@@ -37,8 +37,8 @@ At I first I thought it worked well but found some problems, so that would like 
 
 ex) If I set D3 for tuning, 
 tonic index: 220Hz <br>
-2nd Harmonic index and range: 440Hz, 410~470Hz <br>
-3rd Harmonics index and range: 660Hz, 630~690Hz
+2nd Harmonic index and range: 440Hz, 410-470Hz <br>
+3rd Harmonics index and range: 660Hz, 630-690Hz
 
 I guess there is a error somewhere in the code to make this function..
 
